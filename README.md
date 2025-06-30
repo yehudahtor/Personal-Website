@@ -23,4 +23,4 @@ This website was built to provide a central place to learn more about me, explor
 ├── styles/ # Custom styling
 ├── .gitignore # Ignored files and folders
 ├── package.json # Project metadata and scripts
-└── README.md # This file
+└── README.md # This file 
