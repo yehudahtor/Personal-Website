@@ -6,7 +6,7 @@ This website was built to provide a central place to learn more about me, explor
 
 ## 🔗 Live Site
 
-[Visit the site](https://yehudah.vercel.app)
+[Visit the site](https://yehudahtor.com)
 
 ## 🚀 Tech Stack
 
