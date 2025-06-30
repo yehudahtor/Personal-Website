@@ -137,7 +137,7 @@ export default function PersonalCV() {
             <span>Ex Special Forces Captain</span>
           </div>
           <div className="flex justify-center space-x-6">
-            <a href="https://github.com" className="text-yellow-500 hover:text-yellow-400 transition-colors">
+            <a href="https://github.com/yehudahtor" className="text-yellow-500 hover:text-yellow-400 transition-colors">
               <Github size={24} />
             </a>
             <a
