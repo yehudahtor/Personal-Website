@@ -244,8 +244,8 @@ export default function PersonalCV() {
                   <h4 className="text-lg font-medium text-white mb-2">Technical Intern</h4>
                   <p className="text-yellow-500 mb-3">Armo Cybersecurity</p>
                   <p className="text-slate-300 text-sm leading-relaxed">
-                    Handled code contributions from the open source community of Kubescape, a CNCF incubated project,
-                    managing community engagement and code reviews.
+                    Worked in the R&D team in a cybersecurity startup. Contributed code to Kubescape, Armo's
+                    CNCF-incubated open-source project, and built AI agents to automate developer workflows.
                   </p>
                 </CardContent>
               </Card>
