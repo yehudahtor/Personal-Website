@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useRef } from "react"
-import { Github, Linkedin, ExternalLink, MapPin } from "lucide-react"
+import { Github, Linkedin, ExternalLink, MapPin, Play } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -287,8 +287,10 @@ export default function PersonalCV() {
       <section id="projects" className="py-20 relative z-10">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-4xl font-medium mb-12 text-center">Featured Projects</h2>
-          <div className="flex justify-center">
-            <Card className="bg-slate-800 border-slate-700 hover:border-yellow-500 transition-colors max-w-4xl w-full">
+
+          <div className="grid gap-8 mb-8">
+            {/* Camel Hack */}
+            <Card className="bg-slate-800 border-slate-700 hover:border-yellow-500 transition-colors">
               <CardContent className="p-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -336,6 +338,69 @@ export default function PersonalCV() {
                 </div>
               </CardContent>
             </Card>
+
+            {/* Kubescape Issue Agent */}
+            <Card className="bg-slate-800 border-slate-700 hover:border-yellow-500 transition-colors">
+              <CardContent className="p-6">
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <div className="flex justify-between items-start mb-4">
+                      <h3 className="text-xl font-medium text-white">
+                        Automated GitHub Issue Agent – Kubescape (CNCF Incubated, with Armo Security)
+                      </h3>
+                      <div className="flex items-center space-x-2">
+                        <a
+                          href="https://youtu.be/KXii06fiM3Y"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-yellow-500 hover:text-yellow-400 transition-colors"
+                        >
+                          <Play size={20} />
+                        </a>
+                      </div>
+                    </div>
+                    <p className="text-slate-300 mb-4 leading-relaxed">
+                      Built an AI-powered GitHub Issue Agent for Kubescape, an open-source Kubernetes security project.
+                    </p>
+                    <p className="text-slate-300 mb-4 leading-relaxed">
+                      Automated the end-to-end debugging workflow: identified repositories/files requiring fixes,
+                      suggested code patches, and executed unit tests.
+                    </p>
+                    <p className="text-slate-300 mb-4 leading-relaxed">
+                      Collaborated with Armo (creators of Kubescape) to deploy the tool in production.
+                    </p>
+                    <div className="mb-4">
+                      <h4 className="text-sm font-medium text-yellow-500 mb-2">Technologies:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        <Badge className="bg-slate-600 text-white border-slate-600">Go</Badge>
+                        <Badge className="bg-slate-600 text-white border-slate-600">Node.js</Badge>
+                        <Badge className="bg-slate-600 text-white border-slate-600">TypeScript</Badge>
+                        <Badge className="bg-slate-600 text-white border-slate-600">GitHub API</Badge>
+                        <Badge className="bg-slate-600 text-white border-slate-600">GPT-5</Badge>
+                      </div>
+                    </div>
+                    <Button className="bg-yellow-500 hover:bg-yellow-600 text-black w-full">
+                      <a
+                        href="https://youtu.be/KXii06fiM3Y"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full flex items-center justify-center space-x-2"
+                      >
+                        <Play size={16} />
+                        <span>Watch Demo Video</span>
+                      </a>
+                    </Button>
+                  </div>
+                  <div className="rounded-lg overflow-hidden border border-slate-600">
+                    <img
+                      src="/images/kubescape-issue-agent.png"
+                      alt="Kubescape Issue Agent Interface"
+                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -358,6 +423,22 @@ export default function PersonalCV() {
                     <Badge className="bg-slate-600 text-white border-slate-600">JavaScript</Badge>
                     <Badge className="bg-slate-600 text-white border-slate-600">HTML</Badge>
                     <Badge className="bg-slate-600 text-white border-slate-600">CSS</Badge>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 className="text-xl font-medium mb-6 text-yellow-500">Specializations</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="text-lg font-medium mb-2">Specializations</h4>
+                  <div className="flex flex-wrap gap-2">
+                    <Badge className="bg-slate-600 text-white border-slate-600">Machine Learning</Badge>
+                    <Badge className="bg-slate-600 text-white border-slate-600">Cybersecurity</Badge>
+                    <Badge className="bg-slate-600 text-white border-slate-600">Network Security</Badge>
+                    <Badge className="bg-slate-600 text-white border-slate-600">Data Analysis</Badge>
+                    <Badge className="bg-slate-600 text-white border-slate-600">Docker</Badge>
+                    <Badge className="bg-slate-600 text-white border-slate-600">Kubernetes</Badge>
                   </div>
                 </div>
               </div>
