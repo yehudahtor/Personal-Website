@@ -170,14 +170,18 @@ export default function PersonalCV() {
             </div>
             <div>
               <p className="text-lg text-slate-300 mb-6 leading-relaxed">
-                I'm currently studying Computer Science and Physics at Harvard University (Class of 2028), driven by a
-                passion for AI, cybersecurity, and technology. As a former Captain in an elite IDF Special Forces unit,
-                I've developed strong leadership, resilience, and strategic decision-making skills under pressure.
+                I'm an undergraduate at Harvard University (Class of 2028), studying Computer Science and Physics with a
+                deep passion for artificial intelligence, cybersecurity, and emerging technologies.
               </p>
               <p className="text-lg text-slate-300 mb-6 leading-relaxed">
-                My goal is to develop innovative solutions that address critical challenges and create meaningful
-                societal impact. I bring a unique combination of technical expertise and military leadership experience
-                to every project I undertake.
+                Before Harvard, I served as a Captain in an elite IDF Special Forces unit, where I built leadership,
+                resilience, and strategic decision-making skills under pressure — qualities I now bring to every
+                technical and intellectual challenge I face.
+              </p>
+              <p className="text-lg text-slate-300 mb-6 leading-relaxed">
+                At my core, I'm driven by one goal: to become an exceptional problem solver. Whether through building
+                new tools, exploring complex systems, or tackling real-world challenges, I'm constantly learning,
+                creating, and pushing myself to think more critically and solve problems that matter.
               </p>
               <div className="flex items-center text-slate-400">
                 <MapPin size={16} className="mr-2" />
@@ -203,7 +207,7 @@ export default function PersonalCV() {
                   <div className="w-48 h-24 mx-auto mb-4 bg-white rounded-lg p-4 flex items-center justify-center group-hover:scale-105 transition-transform">
                     <img src="/images/doti-logo.png" alt="Doti.ai" className="w-full h-full object-contain" />
                   </div>
-                  <h4 className="text-lg font-medium text-white mb-2">Go to Market</h4>
+                  <h4 className="text-lg font-medium text-white mb-2">SDR</h4>
                   <p className="text-yellow-500 mb-3">Doti.ai</p>
                   <p className="text-slate-300 text-sm leading-relaxed">
                     Joined an early-stage startup as GTM lead, focusing on customer acquisition and go-to-market
@@ -299,7 +303,7 @@ export default function PersonalCV() {
                       <ExternalLink size={20} className="text-yellow-500" />
                     </div>
                     <p className="text-slate-300 mb-4 leading-relaxed">
-                      Founded and directed a premier hackathon bringing together innovative minds to solve real-world
+                      Co-founded and directed a premier hackathon bringing together innovative minds to solve real-world
                       challenges.
                       <strong className="text-yellow-500"> Raised $100K+ in funding</strong> and selected the top 50
                       teams from
@@ -345,9 +349,7 @@ export default function PersonalCV() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <div className="flex justify-between items-start mb-4">
-                      <h3 className="text-xl font-medium text-white">
-                        Automated GitHub Issue Agent – Kubescape (CNCF Incubated, with Armo Security)
-                      </h3>
+                      <h3 className="text-xl font-medium text-white">GitHub Issue Agent</h3>
                       <div className="flex items-center space-x-2">
                         <a
                           href="https://youtu.be/KXii06fiM3Y"
@@ -360,7 +362,8 @@ export default function PersonalCV() {
                       </div>
                     </div>
                     <p className="text-slate-300 mb-4 leading-relaxed">
-                      Built an AI-powered GitHub Issue Agent for Kubescape, an open-source Kubernetes security project.
+                      Built an automated AI-powered GitHub Issue Agent for Kubescape, a CNCF-incubated open-source
+                      Kubernetes security project in collaboration with Armo Security.
                     </p>
                     <p className="text-slate-300 mb-4 leading-relaxed">
                       Automated the end-to-end debugging workflow: identified repositories/files requiring fixes,
